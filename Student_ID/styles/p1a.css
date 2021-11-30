@@ -1,0 +1,29 @@
+body{
+    font-family: 'Gill Sans';
+    font-size:13px;
+    padding: 25px;
+}
+
+.versionB{
+    visibility: hidden;
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    border: 2px solid  #d0d0ff;
+}
+
+.t1, .t3, .t5:nth-child(odd) {
+    background-color: #dfe1e7;
+}
+
+.t2, .t4:nth-child(even){
+    background-color: #eeeff2;
+}  
+
+/*
+.versionA{
+    border: 2px solid  #d0d0ff;
+} */

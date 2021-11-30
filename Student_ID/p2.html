@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Vote logging form</title>
+    <link rel="stylesheet" href="styles/p1b.css"/>
+    <script src ="scripts/script.js" type="text/javascript"></script>
+</head>
+
+<body> 
+    <form action="scripts/votelog.php" method="POST" onsubmit="return validateForm()">
+        <p> Enter Clerk ID:
+            <input type ="text " name="clerk" id="clerk" />
+        </p>
+
+        <p> Enter Constituency ID:
+            <input type ="text" name="constituency" id="constituency"/>
+        </p>
+
+        <p> Enter Polling Division ID:
+            <input type ="text" name="polldiv" id="polldiv" />
+        </p>
+
+        <p> Enter Polling Station:
+            <input type ="text" name="pollname" id="pollname" />
+        </p>
+
+        <p> Enter Votes for Candidate 1:
+            <input type ="text" name="can1" id="can1" />
+        </p>
+
+        <p> Enter Votes for Candidate 2:
+            <input type ="text" name="can2" id="can2" />
+        </p>
+
+        <p> Enter Rejected Ballots:
+            <input type ="text" name="reject" id="reject" />
+        </p>
+
+        <p> Enter Total Number of Votes:
+            <input type ="text" name="totalv" id="totalv" />
+        </p>
+
+        <p>
+            <input type="hidden" name="hiddenField" id="hiddenField" value="e11869d1186d0791"/>
+        </p>
+
+        <p>
+            <button type="submit" name="submit" id="submit" >Submit</button> 
+        </p>
+
+    </form>    
+</body>
+</html>
